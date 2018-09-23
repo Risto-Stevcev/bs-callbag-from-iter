@@ -1,0 +1,26 @@
+{
+  "name": "@ristostevcev/bs-callbag-from-iter",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Risto-Stevcev/bs-callbag-from-iter.git"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.3",
+    "callbag-for-each": "^1.1.0"
+  },
+  "dependencies": {
+    "@ristostevcev/bs-callbag": "^1.1.0",
+    "callbag-from-iter": "^1.2.0"
+  }
+}
